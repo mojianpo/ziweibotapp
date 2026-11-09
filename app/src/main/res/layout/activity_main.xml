@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:fitsSystemWindows="true"
+    android:background="#F8F6FC">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="紫微BOT商家端" android:textColor="#241B32"
+            android:textSize="28sp" android:textStyle="bold" android:layout_marginTop="24dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="管理 KEY，快速访问紫微BOT" android:textColor="#6A6173"
+            android:textSize="15sp" android:layout_marginTop="8dp" android:layout_marginBottom="32dp" />
+        <LinearLayout android:id="@+id/create_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建 KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="创建新的紫微BOT KEY" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/verify_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="✓" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="验证 KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查询 KEY 当前是否可以登录" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/visit_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="↗" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="访问网址" />
+                <TextView style="@style/ActionSubtitle" android:text="打开紫微BOT网站" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <ProgressBar android:id="@+id/progress" android:layout_width="32dp"
+            android:layout_height="32dp" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" android:visibility="gone" />
+        <TextView android:id="@+id/status" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="center"
+            android:textColor="#6A6173" android:textSize="14sp"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+</ScrollView>

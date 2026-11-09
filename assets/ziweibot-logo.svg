@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108" role="img" aria-label="紫微BOT 星轨标志">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5740A8"/>
+      <stop offset="1" stop-color="#201447"/>
+    </linearGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF1B0"/>
+      <stop offset="1" stop-color="#E9AD57"/>
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" rx="25" fill="url(#night)"/>
+  <circle cx="54" cy="54" r="36" fill="#8B72DB" opacity=".13"/>
+  <circle cx="54" cy="54" r="30.5" fill="none" stroke="#B8A8F0" stroke-width="1.5" opacity=".65"/>
+  <path d="M23.5 54a30.5 30.5 0 0 1 31-30.5" fill="none" stroke="#E7DCFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M84.5 54a30.5 30.5 0 0 1-30.5 30.5" fill="none" stroke="#8B73D7" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="27.6" cy="38.7" r="3.2" fill="#D8C9FF"/>
+  <circle cx="78.7" cy="36.1" r="2.8" fill="#FFE3A2"/>
+  <circle cx="80.2" cy="69.9" r="3.3" fill="#D8C9FF"/>
+  <path d="M54 31c2.6 13.8 9.2 20.4 23 23-13.8 2.6-20.4 9.2-23 23-2.6-13.8-9.2-20.4-23-23 13.8-2.6 20.4-9.2 23-23Z" fill="url(#star)"/>
+  <circle cx="54" cy="54" r="4.3" fill="#FFF7D6"/>
+</svg>
