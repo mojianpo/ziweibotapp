@@ -1,0 +1,4 @@
+<resources>
+    <string name="api_base_url" translatable="false">https://www.eoeshop.com</string>
+    <string name="api_key" translatable="false">sk-wedfrtseepdd123wer</string>
+</resources>
