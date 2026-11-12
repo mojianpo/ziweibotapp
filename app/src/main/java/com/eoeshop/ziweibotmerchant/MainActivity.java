@@ -45,6 +45,16 @@ public class MainActivity extends Activity {
         status = findViewById(R.id.status);
 
         createCard.setOnClickListener(view -> request("/ziweibot/api/account/create", null, false));
+        findViewById(R.id.create_h5_game_key_card).setOnClickListener(view -> showResult(
+                "创建H5游戏KEY",
+                "尊敬的用户您好：您购买的情侣互动小游戏学习工具资源包 KEY 已创建成功：SN-20261111, " +
+                        "请尽快在7天内进行登录使用，多谢！\n网址：https://www.eoeshop.com/h5/001/index.html"));
+        findViewById(R.id.create_novel_key_card).setOnClickListener(view -> showResult(
+                "创建小说KEY",
+                "尊敬的用户您好：您购买的情侣互动小游戏学习工具资源包 KEY 已创建成功：1234 , " +
+                        "通过网盘分享的技能文件：novel-control-station 链接: " +
+                        "https://pan.baidu.com/s/14lIqk-gjhRZkuhzMvbbdcg?pwd=1234 " +
+                        "--来自百度网盘超级会员v1的分享"));
         verifyCard.setOnClickListener(view -> showVerifyDialog());
         findViewById(R.id.visit_card).setOnClickListener(view -> openWebsite());
     }

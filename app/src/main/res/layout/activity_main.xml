@@ -18,6 +18,22 @@
             </LinearLayout>
             <TextView style="@style/ActionArrow" android:text="›" />
         </LinearLayout>
+        <LinearLayout android:id="@+id/create_h5_game_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建H5游戏KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看情侣互动小游戏学习工具资源包 KEY" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/create_novel_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建小说KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看 novel-control-station 技能文件" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
         <LinearLayout android:id="@+id/verify_card" style="@style/ActionCard">
             <TextView style="@style/ActionIcon" android:text="✓" />
             <LinearLayout style="@style/ActionTextGroup">
