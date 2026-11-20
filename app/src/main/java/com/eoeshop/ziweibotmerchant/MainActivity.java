@@ -46,15 +46,45 @@ public class MainActivity extends Activity {
 
         createCard.setOnClickListener(view -> request("/ziweibot/api/account/create", null, false));
         findViewById(R.id.create_h5_game_key_card).setOnClickListener(view -> showResult(
-                "创建H5游戏KEY",
+                "创建情侣互动KEY",
                 "尊敬的用户您好：您购买的情侣互动小游戏学习工具资源包 KEY 已创建成功：SN-20261111, " +
                         "请尽快在7天内进行登录使用，多谢！\n网址：https://www.eoeshop.com/h5/001/index.html"));
+        findViewById(R.id.create_52_postures_key_card).setOnClickListener(view -> showResult(
+                "创建52姿势KEY",
+                "尊敬的用户您好：您购买的情侣52姿势学习资源包 KEY 已创建成功：2026 , " +
+                        "访问地址：https://www.eoeshop.com/h5/002/index.html"));
+        findViewById(R.id.create_couple_challenge_key_card).setOnClickListener(view -> showResult(
+                "创建情侣默契挑战KEY",
+                "尊敬的用户您好：您购买的情侣默契大挑战小游戏资源包 KEY 已创建成功：love , " +
+                        "访问地址：https://www.eoeshop.com/h5/003/index.html"));
+        findViewById(R.id.create_photo_cut_key_card).setOnClickListener(view -> showResult(
+                "创建切照片KEY",
+                "尊敬的用户您好：您购买的切\"前任\"照片小游戏学习资源包\n" +
+                        "KEY 已创建成功：qqr , 访问地址：https://www.eoeshop.com/h5/004/index.html"));
         findViewById(R.id.create_novel_key_card).setOnClickListener(view -> showResult(
-                "创建小说KEY",
-                "尊敬的用户您好：您购买的情侣互动小游戏学习工具资源包 KEY 已创建成功：1234 , " +
+                "创建小说技能KEY",
+                "尊敬的用户您好：您购买的AI小说创作技能学习资源包学习资料 KEY 已创建成功：1234 , " +
                         "通过网盘分享的技能文件：novel-control-station 链接: " +
                         "https://pan.baidu.com/s/14lIqk-gjhRZkuhzMvbbdcg?pwd=1234 " +
                         "--来自百度网盘超级会员v1的分享"));
+        findViewById(R.id.create_patent_paper_skill_key_card).setOnClickListener(view -> showResult(
+                "创建专利论文技能KEY",
+                "尊敬的用户您好：您购买的情侣互动小游戏学习工具资源包  KEY 已创建成功：qr35 ,通过网盘分享的文件：patent链接: " +
+                        "https://pan.baidu.com/s/1Oo_y_DRelYBf-ihS6PCObg?pwd=qr35 --来自百度网盘超级会员v1的分享"));
+        findViewById(R.id.create_khazix_skill_key_card).setOnClickListener(view -> showResult(
+                "创建卡兹克技能KEY",
+                "尊敬的用户您好：您购买的khazix卡兹克同款AI技能包 KEY 已创建成功：a3ys  ,通过网盘分享的文件：khazix\n" +
+                        "链接: https://pan.baidu.com/s/1HxsNFnYfM2QsHVf5tu8Qjg?pwd=a3ys\n提取码: a3ys\n" +
+                        "--来自百度网盘超级会员v1的分享"));
+        findViewById(R.id.create_stock_skill_key_card).setOnClickListener(view -> showResult(
+                "创建股票技能KEY",
+                "尊敬的用户您好：您购买的A港股美股个股深度分析引擎技能包 KEY 已创建成功：drzx , 通过网盘分享的文件：stock\n" +
+                        "链接: https://pan.baidu.com/s/1rLveivoUCrPiIZsctgZncQ?pwd=drzx  " +
+                        "--来自百度网盘超级会员v1的分享"));
+        findViewById(R.id.create_mbti_key_card).setOnClickListener(view -> showResult(
+                "创建人格罗盘KEY",
+                "尊敬的用户您好：您购买的人格罗盘-MBTI测验资源包 KEY 已创建成功：SK-20261114 , " +
+                        "访问地址：https://www.eoeshop.com/mbti"));
         verifyCard.setOnClickListener(view -> showVerifyDialog());
         findViewById(R.id.visit_card).setOnClickListener(view -> openWebsite());
     }

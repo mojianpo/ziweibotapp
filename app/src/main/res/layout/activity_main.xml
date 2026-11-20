@@ -26,11 +26,67 @@
             </LinearLayout>
             <TextView style="@style/ActionArrow" android:text="›" />
         </LinearLayout>
+        <LinearLayout android:id="@+id/create_52_postures_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建52姿势KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看情侣互动小游戏52学习资源包 KEY" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/create_couple_challenge_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建情侣默契挑战KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看情侣默契大挑战小游戏资源包 KEY" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/create_photo_cut_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建切照片KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看切&quot;前任&quot;照片小游戏学习资源包 KEY" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
         <LinearLayout android:id="@+id/create_novel_key_card" style="@style/ActionCard">
             <TextView style="@style/ActionIcon" android:text="＋" />
             <LinearLayout style="@style/ActionTextGroup">
                 <TextView style="@style/ActionTitle" android:text="创建小说KEY" />
                 <TextView style="@style/ActionSubtitle" android:text="查看 novel-control-station 技能文件" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/create_patent_paper_skill_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建专利论文技能KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看 patent 技能包 KEY" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/create_khazix_skill_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建卡兹克技能KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看 khazix 技能包 KEY" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/create_stock_skill_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建股票技能KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看股票技能包 KEY" />
+            </LinearLayout>
+            <TextView style="@style/ActionArrow" android:text="›" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/create_mbti_key_card" style="@style/ActionCard">
+            <TextView style="@style/ActionIcon" android:text="＋" />
+            <LinearLayout style="@style/ActionTextGroup">
+                <TextView style="@style/ActionTitle" android:text="创建人格罗盘KEY" />
+                <TextView style="@style/ActionSubtitle" android:text="查看人格罗盘-MBTI测验资源包 KEY" />
             </LinearLayout>
             <TextView style="@style/ActionArrow" android:text="›" />
         </LinearLayout>
